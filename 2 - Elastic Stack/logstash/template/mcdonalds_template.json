@@ -1,0 +1,20 @@
+{
+    "index_patterns": ["mcdonalds*"],
+    "settings": {
+        "index.refresh_interval": "5s"
+    },
+    "mappings": {
+        "properties": {
+            "city": { "type": "keyword" },
+            "name": { "type": "text" },
+            "country": { "type": "keyword" },
+            "subdivision": { "type": "keyword" },
+            "address": { "type": "text" },
+            "postcode": { "type": "keyword" },
+            "telephone": { "type": "keyword" },
+            "runhours": { "type": "text" },
+            "services": { "type": "text" },
+            "location": { "type": "geo_point" }
+        }
+    }
+}

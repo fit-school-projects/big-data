@@ -1,0 +1,22 @@
+{
+    "index_patterns": ["healthylifestyle*"],
+    "settings": {
+        "index.refresh_interval": "5s"
+    },
+    "mappings": {
+        "properties": {
+            "city": { "type": "keyword" },
+            "rank": { "type": "integer" },
+            "sunshine hours(City)": { "type": "integer" },
+            "cost of a bottle of water(City)": { "type": "float" },
+            "obesity levels(Country)": { "type": "float" },
+            "life expectancy(years) (Country)": { "type": "float" },
+            "pollution(Index score) (City)": { "type": "float" },
+            "annual avg. hours worked": { "type": "integer" },
+            "happiness levels(Country)": { "type": "float" },
+            "outdoor activities(City)": { "type": "integer" },
+            "number of take out places(City)": { "type": "integer" },
+            "cost of a monthly gym membership(City)": { "type": "float" }
+        }
+    }
+}

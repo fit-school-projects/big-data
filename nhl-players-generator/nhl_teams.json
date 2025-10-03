@@ -1,0 +1,1546 @@
+[
+    {
+        "team_name": "Anaheim Ducks",
+        "location": "Anaheim, California",
+        "conference": "Western",
+        "division": "Pacific",
+        "established": 1993,
+        "staff_members": [
+            {
+                "name": "Craig Valdez",
+                "position": "Passenger transport manager"
+            },
+            {
+                "name": "Melissa Trujillo",
+                "position": "Designer, blown glass/stained glass"
+            },
+            {
+                "name": "Kimberly Moore",
+                "position": "Human resources officer"
+            },
+            {
+                "name": "Jenna Hancock",
+                "position": "Musician"
+            },
+            {
+                "name": "Meagan Johnson",
+                "position": "Counselling psychologist"
+            },
+            {
+                "name": "Jesus Leonard",
+                "position": "Plant breeder/geneticist"
+            },
+            {
+                "name": "Jennifer Robinson",
+                "position": "Automotive engineer"
+            }
+        ]
+    },
+    {
+        "team_name": "Arizona Coyotes",
+        "location": "Glendale, Arizona",
+        "conference": "Western",
+        "division": "Pacific",
+        "established": 1996,
+        "staff_members": [
+            {
+                "name": "Shelley Wheeler",
+                "position": "Textile designer"
+            },
+            {
+                "name": "Tamara Tapia",
+                "position": "Pathologist"
+            },
+            {
+                "name": "Brenda Carter",
+                "position": "Trade mark attorney"
+            },
+            {
+                "name": "Tyler Lee",
+                "position": "Scientist, product/process development"
+            },
+            {
+                "name": "Shelby Winters",
+                "position": "Paramedic"
+            },
+            {
+                "name": "Katherine Burke",
+                "position": "Training and development officer"
+            },
+            {
+                "name": "Bill Lam",
+                "position": "Ceramics designer"
+            },
+            {
+                "name": "Stephen Kirby",
+                "position": "Call centre manager"
+            },
+            {
+                "name": "Megan Hunter",
+                "position": "Trading standards officer"
+            }
+        ]
+    },
+    {
+        "team_name": "Boston Bruins",
+        "location": "Boston, Massachusetts",
+        "conference": "Eastern",
+        "division": "Atlantic",
+        "established": 1924,
+        "staff_members": [
+            {
+                "name": "Caroline Smith",
+                "position": "Nurse, children's"
+            },
+            {
+                "name": "Xavier Mendoza",
+                "position": "Production manager"
+            },
+            {
+                "name": "Lindsey Dixon",
+                "position": "Community arts worker"
+            },
+            {
+                "name": "Jimmy Nicholson",
+                "position": "Commercial/residential surveyor"
+            },
+            {
+                "name": "Kyle Jones",
+                "position": "Surveyor, planning and development"
+            },
+            {
+                "name": "Bethany Black",
+                "position": "Acupuncturist"
+            },
+            {
+                "name": "Ethan Cummings",
+                "position": "Computer games developer"
+            },
+            {
+                "name": "Kevin Shepard",
+                "position": "Audiological scientist"
+            }
+        ]
+    },
+    {
+        "team_name": "Buffalo Sabres",
+        "location": "Buffalo, New York",
+        "conference": "Eastern",
+        "division": "Atlantic",
+        "established": 1970,
+        "staff_members": [
+            {
+                "name": "Stephen Estes",
+                "position": "Journalist, broadcasting"
+            },
+            {
+                "name": "Jennifer Evans",
+                "position": "Development worker, community"
+            },
+            {
+                "name": "Devin Holland",
+                "position": "Designer, industrial/product"
+            },
+            {
+                "name": "Christopher Reed",
+                "position": "Technical sales engineer"
+            },
+            {
+                "name": "Lisa Boyer",
+                "position": "Dancer"
+            },
+            {
+                "name": "Meghan Haas",
+                "position": "Fisheries officer"
+            },
+            {
+                "name": "Anthony Williams",
+                "position": "Structural engineer"
+            },
+            {
+                "name": "Michelle Burgess MD",
+                "position": "Higher education careers adviser"
+            },
+            {
+                "name": "Denise Brown",
+                "position": "Interpreter"
+            },
+            {
+                "name": "Sandra Hall",
+                "position": "Teacher, adult education"
+            },
+            {
+                "name": "Rachael Gould",
+                "position": "IT technical support officer"
+            },
+            {
+                "name": "Brian Fox",
+                "position": "Airline pilot"
+            },
+            {
+                "name": "Jennifer Murphy",
+                "position": "Psychologist, forensic"
+            }
+        ]
+    },
+    {
+        "team_name": "Calgary Flames",
+        "location": "Calgary, Alberta",
+        "conference": "Western",
+        "division": "Pacific",
+        "established": 1980,
+        "staff_members": [
+            {
+                "name": "Stephanie Ryan",
+                "position": "Forensic psychologist"
+            },
+            {
+                "name": "Amy Hall",
+                "position": "Health physicist"
+            },
+            {
+                "name": "Ronald Jones",
+                "position": "Surgeon"
+            },
+            {
+                "name": "Michelle Spencer",
+                "position": "Corporate treasurer"
+            },
+            {
+                "name": "Harry Flores",
+                "position": "Tourist information centre manager"
+            },
+            {
+                "name": "Meghan Hampton",
+                "position": "Engineer, mining"
+            },
+            {
+                "name": "Ms. Cynthia Maxwell",
+                "position": "Immigration officer"
+            },
+            {
+                "name": "Lisa Sanchez",
+                "position": "Geologist, engineering"
+            }
+        ]
+    },
+    {
+        "team_name": "Carolina Hurricanes",
+        "location": "Raleigh, North Carolina",
+        "conference": "Eastern",
+        "division": "Metropolitan",
+        "established": 1972,
+        "staff_members": [
+            {
+                "name": "Margaret Rivas",
+                "position": "Surgeon"
+            },
+            {
+                "name": "Jeffrey Nelson",
+                "position": "Science writer"
+            },
+            {
+                "name": "Mr. Anthony Thompson",
+                "position": "Automotive engineer"
+            },
+            {
+                "name": "Angela Lowe",
+                "position": "Metallurgist"
+            },
+            {
+                "name": "Miguel Church",
+                "position": "Chief Strategy Officer"
+            },
+            {
+                "name": "Sean Ramirez",
+                "position": "Animator"
+            },
+            {
+                "name": "Christina Hatfield",
+                "position": "Education officer, museum"
+            },
+            {
+                "name": "Heidi Adams",
+                "position": "Nurse, mental health"
+            },
+            {
+                "name": "Amanda Young",
+                "position": "Scientist, audiological"
+            },
+            {
+                "name": "Veronica Walker",
+                "position": "Site engineer"
+            },
+            {
+                "name": "Alexandra Wilson",
+                "position": "Volunteer coordinator"
+            }
+        ]
+    },
+    {
+        "team_name": "Chicago Blackhawks",
+        "location": "Chicago, Illinois",
+        "conference": "Western",
+        "division": "Central",
+        "established": 1926,
+        "staff_members": [
+            {
+                "name": "Manuel Ferguson",
+                "position": "Brewing technologist"
+            },
+            {
+                "name": "Mary Smith",
+                "position": "Dentist"
+            },
+            {
+                "name": "Samantha Anderson",
+                "position": "Games developer"
+            },
+            {
+                "name": "Kimberly Hughes",
+                "position": "Police officer"
+            },
+            {
+                "name": "Joseph Sampson",
+                "position": "Midwife"
+            }
+        ]
+    },
+    {
+        "team_name": "Colorado Avalanche",
+        "location": "Denver, Colorado",
+        "conference": "Western",
+        "division": "Central",
+        "established": 1972,
+        "staff_members": [
+            {
+                "name": "Kristina Nixon",
+                "position": "Chief Technology Officer"
+            },
+            {
+                "name": "Diane Bailey",
+                "position": "Chiropodist"
+            },
+            {
+                "name": "Wendy Randall",
+                "position": "Tree surgeon"
+            },
+            {
+                "name": "Cody Holloway",
+                "position": "Administrator, sports"
+            },
+            {
+                "name": "Jacob Smith",
+                "position": "Catering manager"
+            },
+            {
+                "name": "Jeremy Mitchell",
+                "position": "Data processing manager"
+            },
+            {
+                "name": "Haley English",
+                "position": "Industrial/product designer"
+            },
+            {
+                "name": "Kristi Hernandez",
+                "position": "Nurse, learning disability"
+            },
+            {
+                "name": "Jeffrey Dillon",
+                "position": "Lecturer, further education"
+            },
+            {
+                "name": "Matthew Hamilton",
+                "position": "Private music teacher"
+            },
+            {
+                "name": "James Thompson",
+                "position": "Patent examiner"
+            }
+        ]
+    },
+    {
+        "team_name": "Columbus Blue Jackets",
+        "location": "Columbus, Ohio",
+        "conference": "Eastern",
+        "division": "Metropolitan",
+        "established": 2000,
+        "staff_members": [
+            {
+                "name": "John Green",
+                "position": "Technical sales engineer"
+            },
+            {
+                "name": "Kenneth Murillo",
+                "position": "Agricultural consultant"
+            },
+            {
+                "name": "Holly Acosta",
+                "position": "Insurance broker"
+            },
+            {
+                "name": "Amanda Taylor",
+                "position": "IT trainer"
+            },
+            {
+                "name": "Kevin Jimenez",
+                "position": "Scientist, biomedical"
+            },
+            {
+                "name": "Gabriela Ward",
+                "position": "Armed forces technical officer"
+            },
+            {
+                "name": "Elijah Dudley",
+                "position": "Journalist, newspaper"
+            },
+            {
+                "name": "Jason Thomas",
+                "position": "Designer, graphic"
+            },
+            {
+                "name": "Megan Houston",
+                "position": "Chief Financial Officer"
+            },
+            {
+                "name": "Michelle Martinez",
+                "position": "Trade mark attorney"
+            },
+            {
+                "name": "Kayla Chapman",
+                "position": "Pension scheme manager"
+            },
+            {
+                "name": "Nicole Gardner",
+                "position": "Surveyor, building"
+            }
+        ]
+    },
+    {
+        "team_name": "Dallas Stars",
+        "location": "Dallas, Texas",
+        "conference": "Western",
+        "division": "Central",
+        "established": 1967,
+        "staff_members": [
+            {
+                "name": "Lauren Maxwell",
+                "position": "Catering manager"
+            },
+            {
+                "name": "Ashlee Hughes",
+                "position": "Facilities manager"
+            },
+            {
+                "name": "Lawrence Blanchard",
+                "position": "Garment/textile technologist"
+            },
+            {
+                "name": "Michael Reeves",
+                "position": "Surveyor, minerals"
+            },
+            {
+                "name": "Frederick Clark",
+                "position": "Scientist, research (physical sciences)"
+            }
+        ]
+    },
+    {
+        "team_name": "Detroit Red Wings",
+        "location": "Detroit, Michigan",
+        "conference": "Eastern",
+        "division": "Atlantic",
+        "established": 1926,
+        "staff_members": [
+            {
+                "name": "John Gonzales",
+                "position": "Marine scientist"
+            },
+            {
+                "name": "Sarah Marquez",
+                "position": "Ergonomist"
+            },
+            {
+                "name": "Kimberly Wells",
+                "position": "Microbiologist"
+            },
+            {
+                "name": "Emily Jones",
+                "position": "Systems developer"
+            },
+            {
+                "name": "Laura Smith",
+                "position": "English as a second language teacher"
+            }
+        ]
+    },
+    {
+        "team_name": "Edmonton Oilers",
+        "location": "Edmonton, Alberta",
+        "conference": "Western",
+        "division": "Pacific",
+        "established": 1972,
+        "staff_members": [
+            {
+                "name": "Brian Hodges",
+                "position": "Chief Operating Officer"
+            },
+            {
+                "name": "Chelsea Morris",
+                "position": "Chartered accountant"
+            },
+            {
+                "name": "Kenneth Brown",
+                "position": "Teacher, music"
+            },
+            {
+                "name": "Brendan Jacobs",
+                "position": "Pharmacist, community"
+            },
+            {
+                "name": "Steven Stafford",
+                "position": "Engineer, manufacturing"
+            },
+            {
+                "name": "Daniel West",
+                "position": "Medical illustrator"
+            }
+        ]
+    },
+    {
+        "team_name": "Florida Panthers",
+        "location": "Sunrise, Florida",
+        "conference": "Eastern",
+        "division": "Atlantic",
+        "established": 1993,
+        "staff_members": [
+            {
+                "name": "Mr. Ricky Walton DDS",
+                "position": "Designer, television/film set"
+            },
+            {
+                "name": "Timothy Kim",
+                "position": "Environmental health practitioner"
+            },
+            {
+                "name": "Ray Torres",
+                "position": "Print production planner"
+            },
+            {
+                "name": "Michelle Miller",
+                "position": "Psychologist, sport and exercise"
+            },
+            {
+                "name": "Stephen Sutton",
+                "position": "Health and safety inspector"
+            },
+            {
+                "name": "Wesley Hill",
+                "position": "Surveyor, mining"
+            },
+            {
+                "name": "Kelly Bradley",
+                "position": "Investment banker, corporate"
+            },
+            {
+                "name": "Robert Porter",
+                "position": "Architect"
+            },
+            {
+                "name": "Margaret Burgess",
+                "position": "Diplomatic Services operational officer"
+            },
+            {
+                "name": "Lauren Holmes",
+                "position": "Horticultural consultant"
+            },
+            {
+                "name": "Theresa Evans",
+                "position": "Chief Marketing Officer"
+            },
+            {
+                "name": "Michelle Sanchez",
+                "position": "Materials engineer"
+            },
+            {
+                "name": "Anne Franklin",
+                "position": "Manufacturing engineer"
+            }
+        ]
+    },
+    {
+        "team_name": "Los Angeles Kings",
+        "location": "Los Angeles, California",
+        "conference": "Western",
+        "division": "Pacific",
+        "established": 1967,
+        "staff_members": [
+            {
+                "name": "Katherine Rasmussen",
+                "position": "Pharmacist, hospital"
+            },
+            {
+                "name": "Danny Villegas",
+                "position": "Dispensing optician"
+            },
+            {
+                "name": "Malik Chan",
+                "position": "Chartered loss adjuster"
+            },
+            {
+                "name": "Edward Arellano",
+                "position": "Art therapist"
+            },
+            {
+                "name": "Joseph Cowan",
+                "position": "Restaurant manager, fast food"
+            },
+            {
+                "name": "Jeremiah Mckinney",
+                "position": "Dramatherapist"
+            },
+            {
+                "name": "Benjamin Thomas",
+                "position": "Education officer, museum"
+            },
+            {
+                "name": "Billy Lee",
+                "position": "Clinical biochemist"
+            },
+            {
+                "name": "Katrina Smith",
+                "position": "Advertising account planner"
+            }
+        ]
+    },
+    {
+        "team_name": "Minnesota Wild",
+        "location": "St. Paul, Minnesota",
+        "conference": "Western",
+        "division": "Central",
+        "established": 2000,
+        "staff_members": [
+            {
+                "name": "Mark Hinton",
+                "position": "Orthoptist"
+            },
+            {
+                "name": "Kevin Neal",
+                "position": "Social research officer, government"
+            },
+            {
+                "name": "Matthew Gonzalez",
+                "position": "Best boy"
+            },
+            {
+                "name": "Edward Smith",
+                "position": "Purchasing manager"
+            },
+            {
+                "name": "Jonathan Carr",
+                "position": "Chief Marketing Officer"
+            },
+            {
+                "name": "Christopher Garcia",
+                "position": "IT consultant"
+            },
+            {
+                "name": "Theresa Olsen",
+                "position": "Medical sales representative"
+            },
+            {
+                "name": "Jim Johnson",
+                "position": "Prison officer"
+            }
+        ]
+    },
+    {
+        "team_name": "Montreal Canadiens",
+        "location": "Montreal, Quebec",
+        "conference": "Eastern",
+        "division": "Atlantic",
+        "established": 1909,
+        "staff_members": [
+            {
+                "name": "Erin Bennett",
+                "position": "Community arts worker"
+            },
+            {
+                "name": "Jill Kidd",
+                "position": "Energy engineer"
+            },
+            {
+                "name": "Sandra Barnes",
+                "position": "Civil engineer, consulting"
+            },
+            {
+                "name": "Omar Fry",
+                "position": "Structural engineer"
+            },
+            {
+                "name": "George Wilson",
+                "position": "Freight forwarder"
+            },
+            {
+                "name": "William Silva",
+                "position": "Insurance underwriter"
+            },
+            {
+                "name": "Taylor Bolton",
+                "position": "Dentist"
+            },
+            {
+                "name": "Michael Freeman",
+                "position": "Commercial art gallery manager"
+            },
+            {
+                "name": "Morgan Casey",
+                "position": "Administrator, charities/voluntary organisations"
+            },
+            {
+                "name": "Mark Braun",
+                "position": "Investment banker, operational"
+            },
+            {
+                "name": "Pamela Rodriguez",
+                "position": "Psychologist, clinical"
+            },
+            {
+                "name": "Bryan Cruz",
+                "position": "Chiropodist"
+            }
+        ]
+    },
+    {
+        "team_name": "Nashville Predators",
+        "location": "Nashville, Tennessee",
+        "conference": "Western",
+        "division": "Central",
+        "established": 1998,
+        "staff_members": [
+            {
+                "name": "Joseph Green",
+                "position": "Hospital doctor"
+            },
+            {
+                "name": "Jeffrey Collins",
+                "position": "Geneticist, molecular"
+            },
+            {
+                "name": "Laura Nguyen",
+                "position": "Research scientist (maths)"
+            },
+            {
+                "name": "Ashley Walker",
+                "position": "Architect"
+            },
+            {
+                "name": "Sarah Baker",
+                "position": "Logistics and distribution manager"
+            },
+            {
+                "name": "Morgan Taylor",
+                "position": "Hospital doctor"
+            }
+        ]
+    },
+    {
+        "team_name": "New Jersey Devils",
+        "location": "Newark, New Jersey",
+        "conference": "Eastern",
+        "division": "Metropolitan",
+        "established": 1974,
+        "staff_members": [
+            {
+                "name": "Evelyn Gibson",
+                "position": "Petroleum engineer"
+            },
+            {
+                "name": "Kerry Roberson",
+                "position": "Soil scientist"
+            },
+            {
+                "name": "Thomas Mitchell MD",
+                "position": "Police officer"
+            },
+            {
+                "name": "Christopher Gutierrez",
+                "position": "Engineer, aeronautical"
+            },
+            {
+                "name": "Robert Gomez",
+                "position": "Management consultant"
+            },
+            {
+                "name": "Glenn Jones",
+                "position": "Soil scientist"
+            },
+            {
+                "name": "John Deleon",
+                "position": "Engineer, automotive"
+            },
+            {
+                "name": "Michael Hart",
+                "position": "Tax inspector"
+            },
+            {
+                "name": "Allen Richardson",
+                "position": "Patent attorney"
+            },
+            {
+                "name": "Joseph Mora",
+                "position": "Development worker, international aid"
+            },
+            {
+                "name": "Christopher Brock",
+                "position": "Psychiatrist"
+            },
+            {
+                "name": "Corey Hill",
+                "position": "Network engineer"
+            },
+            {
+                "name": "Jacob Oliver",
+                "position": "Primary school teacher"
+            },
+            {
+                "name": "Veronica Holland",
+                "position": "Systems analyst"
+            }
+        ]
+    },
+    {
+        "team_name": "New York Islanders",
+        "location": "Uniondale, New York",
+        "conference": "Eastern",
+        "division": "Metropolitan",
+        "established": 1972,
+        "staff_members": [
+            {
+                "name": "Linda Kim",
+                "position": "Records manager"
+            },
+            {
+                "name": "Dawn Taylor",
+                "position": "Counselling psychologist"
+            },
+            {
+                "name": "Erika Wells",
+                "position": "Psychologist, educational"
+            },
+            {
+                "name": "Mark Wright",
+                "position": "English as a second language teacher"
+            },
+            {
+                "name": "Joseph Morgan",
+                "position": "Nature conservation officer"
+            },
+            {
+                "name": "Jeffrey Rojas",
+                "position": "Personal assistant"
+            },
+            {
+                "name": "Sean Robertson",
+                "position": "Sport and exercise psychologist"
+            },
+            {
+                "name": "Joseph Thomas",
+                "position": "Audiological scientist"
+            },
+            {
+                "name": "Christopher Mcintyre",
+                "position": "Engineer, materials"
+            },
+            {
+                "name": "Michael Valencia",
+                "position": "Retail merchandiser"
+            },
+            {
+                "name": "Joshua Crane",
+                "position": "Adult nurse"
+            }
+        ]
+    },
+    {
+        "team_name": "New York Rangers",
+        "location": "New York, New York",
+        "conference": "Eastern",
+        "division": "Metropolitan",
+        "established": 1926,
+        "staff_members": [
+            {
+                "name": "Cory Olson",
+                "position": "Radiographer, diagnostic"
+            },
+            {
+                "name": "Ronald Snyder",
+                "position": "Chief Executive Officer"
+            },
+            {
+                "name": "Bryan Thomas",
+                "position": "Graphic designer"
+            },
+            {
+                "name": "Jeffrey Parker",
+                "position": "Engineer, civil (contracting)"
+            },
+            {
+                "name": "Beth Russell",
+                "position": "Photographer"
+            },
+            {
+                "name": "Joshua Mendoza DVM",
+                "position": "Teacher, secondary school"
+            },
+            {
+                "name": "Jonathan Johnson",
+                "position": "Chief Marketing Officer"
+            },
+            {
+                "name": "Barbara Smith",
+                "position": "Patent attorney"
+            },
+            {
+                "name": "Brandon Clark",
+                "position": "Restaurant manager, fast food"
+            },
+            {
+                "name": "Melinda Smith",
+                "position": "Training and development officer"
+            },
+            {
+                "name": "Dr. Samantha Copeland",
+                "position": "Trade union research officer"
+            },
+            {
+                "name": "David Taylor",
+                "position": "Textile designer"
+            },
+            {
+                "name": "Loretta Brown",
+                "position": "Rural practice surveyor"
+            }
+        ]
+    },
+    {
+        "team_name": "Ottawa Senators",
+        "location": "Ottawa, Ontario",
+        "conference": "Eastern",
+        "division": "Atlantic",
+        "established": 1992,
+        "staff_members": [
+            {
+                "name": "Jason Chapman",
+                "position": "Politician's assistant"
+            },
+            {
+                "name": "Steven Wolfe",
+                "position": "Lobbyist"
+            },
+            {
+                "name": "Michelle Thomas",
+                "position": "Site engineer"
+            },
+            {
+                "name": "Mrs. Donna Wagner",
+                "position": "Musician"
+            },
+            {
+                "name": "Whitney Morgan",
+                "position": "Site engineer"
+            },
+            {
+                "name": "Todd Jones",
+                "position": "Engineer, chemical"
+            },
+            {
+                "name": "William Parker",
+                "position": "Diplomatic Services operational officer"
+            },
+            {
+                "name": "Christine Pratt",
+                "position": "Volunteer coordinator"
+            },
+            {
+                "name": "Denise Taylor",
+                "position": "Broadcast journalist"
+            },
+            {
+                "name": "Raymond Johnson",
+                "position": "Therapist, speech and language"
+            },
+            {
+                "name": "Carla Campbell",
+                "position": "Professor Emeritus"
+            },
+            {
+                "name": "David Morgan",
+                "position": "Passenger transport manager"
+            },
+            {
+                "name": "Mrs. Hannah Church",
+                "position": "Estate agent"
+            },
+            {
+                "name": "Taylor Gibson",
+                "position": "Teaching laboratory technician"
+            }
+        ]
+    },
+    {
+        "team_name": "Philadelphia Flyers",
+        "location": "Philadelphia, Pennsylvania",
+        "conference": "Eastern",
+        "division": "Metropolitan",
+        "established": 1967,
+        "staff_members": [
+            {
+                "name": "Nancy Lopez",
+                "position": "Passenger transport manager"
+            },
+            {
+                "name": "Scott Williams",
+                "position": "Physicist, medical"
+            },
+            {
+                "name": "Mr. Scott Kane",
+                "position": "Site engineer"
+            },
+            {
+                "name": "Megan Mckee",
+                "position": "Therapist, nutritional"
+            },
+            {
+                "name": "Sarah Welch",
+                "position": "Surveyor, building control"
+            },
+            {
+                "name": "Richard Jones",
+                "position": "Merchandiser, retail"
+            },
+            {
+                "name": "James Mitchell",
+                "position": "Nurse, children's"
+            }
+        ]
+    },
+    {
+        "team_name": "Pittsburgh Penguins",
+        "location": "Pittsburgh, Pennsylvania",
+        "conference": "Eastern",
+        "division": "Metropolitan",
+        "established": 1967,
+        "staff_members": [
+            {
+                "name": "Kristen Murray",
+                "position": "Scientist, research (physical sciences)"
+            },
+            {
+                "name": "Heather Crawford",
+                "position": "Engineer, electronics"
+            },
+            {
+                "name": "Joshua Ashley",
+                "position": "Museum/gallery exhibitions officer"
+            },
+            {
+                "name": "Ronald White",
+                "position": "Horticultural consultant"
+            },
+            {
+                "name": "Daniel Harper",
+                "position": "Oceanographer"
+            },
+            {
+                "name": "Leah Ellis",
+                "position": "Accountant, chartered"
+            },
+            {
+                "name": "Eric Morales",
+                "position": "Therapist, occupational"
+            },
+            {
+                "name": "Mrs. Kristy Morrow DDS",
+                "position": "Medical sales representative"
+            },
+            {
+                "name": "Lisa Maxwell",
+                "position": "Secretary, company"
+            },
+            {
+                "name": "Larry Golden",
+                "position": "Retail banker"
+            },
+            {
+                "name": "Andrew Miller",
+                "position": "Designer, fashion/clothing"
+            },
+            {
+                "name": "Catherine Farmer",
+                "position": "Producer, radio"
+            },
+            {
+                "name": "Rachel Holloway",
+                "position": "Furniture conservator/restorer"
+            }
+        ]
+    },
+    {
+        "team_name": "San Jose Sharks",
+        "location": "San Jose, California",
+        "conference": "Western",
+        "division": "Pacific",
+        "established": 1991,
+        "staff_members": [
+            {
+                "name": "William Weber",
+                "position": "Health physicist"
+            },
+            {
+                "name": "Rebecca Haynes",
+                "position": "Advertising art director"
+            },
+            {
+                "name": "Timothy Gonzalez",
+                "position": "Air broker"
+            },
+            {
+                "name": "David Jensen",
+                "position": "Architect"
+            },
+            {
+                "name": "Kyle Morales",
+                "position": "Merchandiser, retail"
+            },
+            {
+                "name": "Courtney Colon",
+                "position": "Planning and development surveyor"
+            },
+            {
+                "name": "Thomas Martin",
+                "position": "Geographical information systems officer"
+            }
+        ]
+    },
+    {
+        "team_name": "Seattle Kraken",
+        "location": "Seattle, Washington",
+        "conference": "Western",
+        "division": "Pacific",
+        "established": 2021,
+        "staff_members": [
+            {
+                "name": "Victoria Rogers",
+                "position": "Office manager"
+            },
+            {
+                "name": "Rebecca Meyer",
+                "position": "Field trials officer"
+            },
+            {
+                "name": "Katherine Baker",
+                "position": "Automotive engineer"
+            },
+            {
+                "name": "Stacy Acevedo",
+                "position": "Civil engineer, contracting"
+            },
+            {
+                "name": "Michael Barajas",
+                "position": "Quantity surveyor"
+            },
+            {
+                "name": "Jose Edwards",
+                "position": "Engineer, civil (consulting)"
+            },
+            {
+                "name": "Diana Wilson",
+                "position": "Designer, jewellery"
+            },
+            {
+                "name": "Jennifer Reyes",
+                "position": "Surveyor, hydrographic"
+            },
+            {
+                "name": "Rebecca Ray",
+                "position": "Electrical engineer"
+            },
+            {
+                "name": "Frank Simon",
+                "position": "Race relations officer"
+            },
+            {
+                "name": "Lauren Hooper",
+                "position": "Arts development officer"
+            },
+            {
+                "name": "Cynthia Harris",
+                "position": "Youth worker"
+            },
+            {
+                "name": "Roberto Davenport",
+                "position": "Television/film/video producer"
+            },
+            {
+                "name": "Jason Cobb",
+                "position": "Marine scientist"
+            }
+        ]
+    },
+    {
+        "team_name": "St. Louis Blues",
+        "location": "St. Louis, Missouri",
+        "conference": "Western",
+        "division": "Central",
+        "established": 1967,
+        "staff_members": [
+            {
+                "name": "John Jones",
+                "position": "Armed forces technical officer"
+            },
+            {
+                "name": "Ms. Alicia Wall",
+                "position": "Operations geologist"
+            },
+            {
+                "name": "Steven Robinson",
+                "position": "Patent attorney"
+            },
+            {
+                "name": "Kelly Griffith",
+                "position": "Diplomatic Services operational officer"
+            },
+            {
+                "name": "Tina Parker",
+                "position": "Social research officer, government"
+            },
+            {
+                "name": "Jessica Hansen",
+                "position": "Software engineer"
+            },
+            {
+                "name": "Jason Guzman",
+                "position": "Chartered certified accountant"
+            },
+            {
+                "name": "Maria Galvan",
+                "position": "Civil Service fast streamer"
+            },
+            {
+                "name": "Amanda Mclean",
+                "position": "Cytogeneticist"
+            }
+        ]
+    },
+    {
+        "team_name": "Tampa Bay Lightning",
+        "location": "Tampa, Florida",
+        "conference": "Eastern",
+        "division": "Atlantic",
+        "established": 1992,
+        "staff_members": [
+            {
+                "name": "Rebekah Grant",
+                "position": "Probation officer"
+            },
+            {
+                "name": "Erin Schmitt",
+                "position": "Multimedia specialist"
+            },
+            {
+                "name": "Jessica Collier",
+                "position": "Farm manager"
+            },
+            {
+                "name": "Jacob Harmon",
+                "position": "Furniture conservator/restorer"
+            },
+            {
+                "name": "Kurt Kelly",
+                "position": "Exhibition designer"
+            },
+            {
+                "name": "Troy Schaefer",
+                "position": "Private music teacher"
+            },
+            {
+                "name": "Tiffany Benjamin",
+                "position": "Administrator, education"
+            },
+            {
+                "name": "Michelle Collins",
+                "position": "Chartered accountant"
+            },
+            {
+                "name": "Theodore Watts",
+                "position": "Building control surveyor"
+            },
+            {
+                "name": "John Nguyen",
+                "position": "Engineer, civil (consulting)"
+            },
+            {
+                "name": "Cynthia Lee",
+                "position": "Solicitor, Scotland"
+            },
+            {
+                "name": "Katherine Ford",
+                "position": "Hotel manager"
+            },
+            {
+                "name": "Dennis Johnson",
+                "position": "Engineer, materials"
+            },
+            {
+                "name": "Brett Bennett",
+                "position": "Fast food restaurant manager"
+            }
+        ]
+    },
+    {
+        "team_name": "Toronto Maple Leafs",
+        "location": "Toronto, Ontario",
+        "conference": "Eastern",
+        "division": "Atlantic",
+        "established": 1917,
+        "staff_members": [
+            {
+                "name": "Derek Santiago",
+                "position": "Engineer, communications"
+            },
+            {
+                "name": "Claire Trevino",
+                "position": "Clinical research associate"
+            },
+            {
+                "name": "Rodney Wilson",
+                "position": "Occupational hygienist"
+            },
+            {
+                "name": "Chris Salazar",
+                "position": "Administrator, local government"
+            },
+            {
+                "name": "Katherine Robertson",
+                "position": "Banker"
+            },
+            {
+                "name": "Kimberly Burns",
+                "position": "Actor"
+            },
+            {
+                "name": "Ann Lee",
+                "position": "Armed forces operational officer"
+            },
+            {
+                "name": "Tyler Garcia",
+                "position": "Teacher, special educational needs"
+            },
+            {
+                "name": "David Flores",
+                "position": "Politician's assistant"
+            },
+            {
+                "name": "Raymond Bowman",
+                "position": "Food technologist"
+            }
+        ]
+    },
+    {
+        "team_name": "Vancouver Canucks",
+        "location": "Vancouver, British Columbia",
+        "conference": "Western",
+        "division": "Pacific",
+        "established": 1970,
+        "staff_members": [
+            {
+                "name": "George Mills",
+                "position": "English as a second language teacher"
+            },
+            {
+                "name": "Aaron Powell",
+                "position": "Race relations officer"
+            },
+            {
+                "name": "Scott Morales",
+                "position": "Teaching laboratory technician"
+            },
+            {
+                "name": "William Hammond",
+                "position": "Analytical chemist"
+            },
+            {
+                "name": "Douglas Fields",
+                "position": "Financial adviser"
+            },
+            {
+                "name": "Caleb Walker",
+                "position": "Human resources officer"
+            },
+            {
+                "name": "Mark Simmons",
+                "position": "Phytotherapist"
+            },
+            {
+                "name": "Kayla Mendez",
+                "position": "Learning mentor"
+            }
+        ]
+    },
+    {
+        "team_name": "Vegas Golden Knights",
+        "location": "Las Vegas, Nevada",
+        "conference": "Western",
+        "division": "Pacific",
+        "established": 2017,
+        "staff_members": [
+            {
+                "name": "Susan Carter",
+                "position": "Geoscientist"
+            },
+            {
+                "name": "Jonathan Johnson",
+                "position": "Ecologist"
+            },
+            {
+                "name": "Dorothy Smith MD",
+                "position": "Magazine features editor"
+            },
+            {
+                "name": "Joseph Osborne",
+                "position": "Acupuncturist"
+            },
+            {
+                "name": "Megan Graham",
+                "position": "Scientist, product/process development"
+            },
+            {
+                "name": "Melinda Carter",
+                "position": "Air traffic controller"
+            },
+            {
+                "name": "Joel Henderson",
+                "position": "Industrial/product designer"
+            },
+            {
+                "name": "Monica Howell",
+                "position": "Government social research officer"
+            },
+            {
+                "name": "Taylor Ramirez",
+                "position": "Hydrologist"
+            }
+        ]
+    },
+    {
+        "team_name": "Washington Capitals",
+        "location": "Washington, D.C.",
+        "conference": "Eastern",
+        "division": "Metropolitan",
+        "established": 1974,
+        "staff_members": [
+            {
+                "name": "Jason Boyle",
+                "position": "Recycling officer"
+            },
+            {
+                "name": "Anita Tanner",
+                "position": "Solicitor"
+            },
+            {
+                "name": "Elizabeth Velez",
+                "position": "Geologist, engineering"
+            },
+            {
+                "name": "Kristin Kim",
+                "position": "Health and safety inspector"
+            },
+            {
+                "name": "Jessica Simpson",
+                "position": "Speech and language therapist"
+            },
+            {
+                "name": "Carolyn Beltran",
+                "position": "Museum/gallery curator"
+            },
+            {
+                "name": "Sarah Young",
+                "position": "Broadcast engineer"
+            },
+            {
+                "name": "Krista Lewis",
+                "position": "Scientist, product/process development"
+            },
+            {
+                "name": "Kelli Fuller",
+                "position": "Copywriter, advertising"
+            },
+            {
+                "name": "Tiffany Nelson",
+                "position": "Engineer, electrical"
+            }
+        ]
+    },
+    {
+        "team_name": "Winnipeg Jets",
+        "location": "Winnipeg, Manitoba",
+        "conference": "Western",
+        "division": "Central",
+        "established": 2011,
+        "staff_members": [
+            {
+                "name": "Diana Leonard",
+                "position": "Surveyor, quantity"
+            },
+            {
+                "name": "Douglas Davis",
+                "position": "Purchasing manager"
+            },
+            {
+                "name": "William Benton",
+                "position": "Comptroller"
+            },
+            {
+                "name": "Emily Smith",
+                "position": "Patent examiner"
+            },
+            {
+                "name": "John Lutz",
+                "position": "Podiatrist"
+            },
+            {
+                "name": "Roberta Green",
+                "position": "Geographical information systems officer"
+            },
+            {
+                "name": "Taylor Potts",
+                "position": "Horticulturist, amenity"
+            },
+            {
+                "name": "Julia Thompson",
+                "position": "English as a foreign language teacher"
+            },
+            {
+                "name": "Christy Chapman",
+                "position": "Horticultural consultant"
+            },
+            {
+                "name": "Chris Harmon",
+                "position": "Plant breeder/geneticist"
+            },
+            {
+                "name": "Anthony Jones",
+                "position": "Engineer, building services"
+            },
+            {
+                "name": "Kathryn Wilson",
+                "position": "Advertising copywriter"
+            },
+            {
+                "name": "Darlene Sanchez",
+                "position": "Ceramics designer"
+            }
+        ]
+    }
+]

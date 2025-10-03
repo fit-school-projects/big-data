@@ -1,0 +1,8 @@
+- pipeline.id: mcdonalds_pipeline
+  path.config: "/usr/share/logstash/pipeline/mcdonalds_pipeline.conf"
+
+- pipeline.id: starbucks_pipeline
+  path.config: "/usr/share/logstash/pipeline/starbucks_pipeline.conf"
+
+- pipeline.id: healthy_lifestyle_pipeline
+  path.config: "/usr/share/logstash/pipeline/healthy_lifestyle_pipeline.conf"

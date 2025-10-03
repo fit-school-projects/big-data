@@ -1,0 +1,32 @@
+{
+  "index_patterns": ["starbucks*"],
+  "settings": {
+    "index.refresh_interval": "5s"
+  },
+  "mappings": {
+    "properties": {
+      "city": { "type": "keyword" },
+      "brand": { "type": "keyword" },
+      "store number": { "type": "keyword" },
+      "store name": {
+        "type": "text",
+        "fields": {
+          "raw": { "type": "keyword" }
+        }
+      },
+      "ownership type": { "type": "keyword" },
+      "street address": {
+        "type": "text",
+        "fields": {
+          "raw": { "type": "keyword" }
+        }
+      },
+      "state/province": { "type": "keyword" },
+      "country": { "type": "keyword" },
+      "postcode": { "type": "keyword" },
+      "phone number": { "type": "keyword" },
+      "timezone": { "type": "keyword" },
+      "location": { "type": "geo_point" }
+    }
+  }
+}
