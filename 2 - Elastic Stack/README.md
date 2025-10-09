@@ -1,6 +1,144 @@
-# Elastic Stack
+# Elastic Stack (ELK) - Analýza a vizualizácia dát
 
-Data pre spracovanie pochádzajú všetky z jedného zdroja, konkrétne z platformy [Kaggle](https://www.kaggle.com/), ktorá je považovaná za najväčší zdroj otvorených dát od výmyslu sveta. Vybral som si datasety, ktoré spadajú pod tému životného štýlu a miest, kde sa ľudia môžu ísť najesť, ísť na rande, stráviť čas s rodinou, alebo sa zrelaxovať pri dobrej káve po práci či cvičení. Hlavným cieľom týchto dát je nájsť zaujímavé korelácie a vizualizácie medzi počtom pobočiek McDonald's a Starbucks na celom svete a následne porovnať najznámejšie veľkomestá a ich údaje, ako sú obezita, cena vody, alebo počet miest, kde sa ľudia môžu stretnúť a dať si niečo dobré.
+Tento projekt demonštruje kompletný ELK stack (Elasticsearch, Logstash, Kibana) na analýze geografických a lifestyle dát z celého sveta.
+
+## 🎯 Cieľ projektu
+
+- Analýza pobočiek McDonald's a Starbucks po celom svete
+- Korelácie medzi fast food reťazcami a lifestyle indikátormi
+- Geografické vizualizácie a mapy
+- Business intelligence a market research
+
+## 🏗 Architektúra
+
+### ELK Stack
+- **Elasticsearch 7.10.0** - vyhľadávací engine a databáza
+- **Logstash 7.10.0** - spracovanie a transformácia dát
+- **Kibana 7.10.0** - vizualizácia a dashboarding
+
+### Infraštruktúra
+- **Docker Compose** - kontajnerizácia
+- **Networking** - izolovaná sieť pre ELK
+- **Volumes** - perzistencia dát a konfigurácie
+
+## 📊 Datasety
+
+### 1. Starbucks Stores
+- **Zdroj**: [Kaggle](https://www.kaggle.com/datasets/starbucks/store-locations)
+- **Počet záznamov**: 16,000+ pobočiek
+- **Pokrytie**: Celosvetové
+- **Kľúčové polia**: city, country, latitude, longitude, timezone
+
+### 2. McDonald's Stores  
+- **Zdroj**: [Kaggle](https://www.kaggle.com/datasets/forveryou/mcdonalds-stores-data)
+- **Počet záznamov**: 40,000+ pobočiek
+- **Pokrytie**: 90 krajín
+- **Kľúčové polia**: city, country, address, services, runhours
+
+### 3. Healthy Lifestyle Cities
+- **Zdroj**: [Kaggle](https://www.kaggle.com/datasets/pawarmukesh/healthy-life-style-city-2021)
+- **Počet záznamov**: 44 najväčších miest
+- **Kľúčové polia**: city, happiness, obesity, working hours, gym costs
+
+## 🚀 Spustenie
+
+### 1. Spustenie ELK stacku
+```bash
+docker compose up -d
+```
+
+### 2. Import dát cez Logstash
+```bash
+# Spustenie pipeline pre každý dataset
+docker exec -it logstash bash
+# Pipelines sa spustia automaticky
+```
+
+### 3. Prístup k službám
+- **Kibana**: http://localhost:5601
+- **Elasticsearch**: http://localhost:9200
+- **Logstash**: http://localhost:9600
+
+## 📈 Vizualizácie v Kibane
+
+### 1. Geografické mapy
+- **McDonald's vs Starbucks v USA** - porovnanie rozloženia
+- **Heatmapa McDonald's na Slovensku** - koncentrácia pobočiek
+- **Celosvetové rozloženie** - globálne pokrytie
+
+### 2. Analytické grafy
+- **Počet pobočiek v mestách** - porovnanie konkurencie
+- **Lifestyle korelácie** - vzťah medzi fast food a zdravím
+- **Working hours vs Happiness** - work-life balance analýza
+
+### 3. Business intelligence
+- **Top 5 US cities** - najlepšie trhy
+- **Takeout places analysis** - trhové príležitosti
+- **Obesity vs Fast Food** - zdravotné korelácie
+
+**Celkovo**: 8 komplexných vizualizácií
+
+## 🔧 Konfigurácia
+
+### Elasticsearch
+- **Port**: 9200, 9300
+- **Memory**: 1GB heap
+- **Health checks**: Automatické monitorovanie
+
+### Logstash
+- **Pipelines**: 3 samostatné pipeline pre každý dataset
+- **Templates**: Index templates pre správne mapovanie
+- **Data processing**: CSV parsing, geo_point creation
+
+### Kibana
+- **Port**: 5601
+- **Index patterns**: Automatické vytvorenie
+- **Dashboards**: Predpripravené vizualizácie
+
+## 📊 Výsledky analýzy
+
+### Kľúčové zistenia
+- **Geografické koncentrácie**: Fast food reťazce sa sústredia v urbanizovaných oblastiach
+- **Lifestyle korelácie**: Mestá s viac outdoor aktivitami majú menej fast food pobočiek
+- **Market opportunities**: Identifikované nedostatočne pokryté trhy
+- **Health correlations**: Korelácia medzi fast food a obezitou
+
+### Business insights
+- **Expansion opportunities**: Potenciálne lokality pre nové pobočky
+- **Competition analysis**: Porovnanie McDonald's vs Starbucks
+- **Market saturation**: Analýza preplnenosti trhov
+- **Consumer behavior**: Vzťah medzi lifestyle a spotrebou
+
+## 📁 Štruktúra projektu
+
+```
+2 - Elastic Stack/
+├── docker-compose.yml          # ELK stack konfigurácia
+├── elasticsearch/config/       # Elasticsearch nastavenia
+├── logstash/
+│   ├── config/                # Logstash konfigurácia
+│   ├── pipeline/              # Data processing pipelines
+│   ├── template/              # Index templates
+│   └── data/                  # CSV datasety
+├── kibana/config/             # Kibana nastavenia
+├── results/                   # Exportované vizualizácie
+│   ├── assets/               # Screenshots grafov
+│   └── queries/              # Kibana queries
+└── README.md                 # Tento súbor
+```
+
+## 📚 Dokumentácia
+
+- **HOWTO.md** - Detailné inštrukcie
+- **results/README.md** - Popis všetkých vizualizácií
+- **results/queries/** - Kibana queries a analýzy
+
+## 🔗 Odkazy
+
+- [Elasticsearch dokumentácia](https://www.elastic.co/guide/en/elasticsearch/reference/7.10/)
+- [Kibana dokumentácia](https://www.elastic.co/guide/en/kibana/7.10/)
+- [Logstash dokumentácia](https://www.elastic.co/guide/en/logstash/7.10/)
+- [Kaggle datasety](https://www.kaggle.com/)
 
 ## Starbucks stores dataset
 

@@ -1,80 +1,149 @@
-# MongoDB
+# MongoDB - NoSQL Databáza
 
-### Obecné chování
+Tento projekt demonštruje prácu s MongoDB - dokumentovo orientovanou NoSQL databázou na príklade datasetu hráčov NHL.
 
-NoSQL databázy boli vyvinuté koncom 21. storočia so zameraním na škálovanie, rýchle dotazy, umožňujúce časté zmeny v aplikácií a zjednodušenie programovania pre vývojárov.
-MongoDB, Redis, Apache Cassandra a Neo4j sú všetky NoSQL databázy, no líšia sa v základných štruktúrach dat, které používajú a v použiteľnosti pre rôzne typy aplikácií.
+## 🎯 Cieľ projektu
 
-V porovnaní s SQL databázami, NoSQL databázy obvykle nepoužívajú pevne definované schémy a niesú závislé na štruktúrach tabuliek s pevne definovanými vzťahmi (cudzie kľúče atď.). To ich robí flexibilnejšími pre aplikácie s neštrukturovanými alebo pološtruktoravanými datami.
+- Demonštrácia NoSQL databázy MongoDB
+- Komplexné dotazy a agregácie
+- Analýza športových dát
+- Porovnanie s relačnými databázami
 
-Sú ľahko škálovateľné, čo umožňuje efektívnejšiu správu veľkého objemu dat rozprestrených po veľkom množstve serverov.
+## 🏗 Architektúra
 
-Často taktiež podporujú modely programovania špecifické pre konkrétny typ dát (dokumenty, kľúč-hodnota, grafy...), čo môže uľahčiť vývoj aplikácií v konkrétnych doménach.
+### Technológie
+- **MongoDB** - dokumentovo orientovaná databáza
+- **Docker** - kontajnerizácia
+- **Mongo Express** - webové rozhranie pre správu DB
+- **Python** - generovanie dát
 
-### Základní principy
+### Štruktúra riešenia
+```
+MongoDB (single-node cluster)
+├── Database: nhl
+├── Collection: players
+└── 500 dokumentov hráčov NHL
+```
 
-MongoDB je NoSQL **dokumentovo orientovaná databáza**, čo znamená, že dáta ukladá vo formáte podobnom JSON (JavaScript Object Notation) resp. BSON (Binary JavaScript object notation). To umožňuje veľmi flexibilné schéma dát a je vhodné pre aplikáce, kde se často menia požiadavky na data a schéma.
+## 📊 Dataset
 
-Podporuje indexovanie, zložité dotazy, agregácie a geopriestorové indexy.
-MongoDB podporuje horizontálne škálovanie pomocou techniky nazývanej "**sharding**", ktorá umožňuje rozdelenie dátových súborov medzi viaceré servery. Sharding je účinný spôsob, ako zvládnuť veľké objemy dát a zároveň udržiavať dobrý výkon pri vysokej záťaži.
+### NHL Players Dataset
+- **Počet záznamov**: 500 hráčov
+- **Formát**: JSON/BSON
+- **Zdroj**: Vygenerované pomocou Python + Faker
 
-Pre replikáciu dát MongoDB používa replikačné sady na zabezpečenie vysokej dostupnosti a odolnosti voči zlyhaniu. Replikačná sada obsahuje viaceré kópie dát, pričom jedna z nich je označená ako primárny uzol (primary), ktorý spracúva všetky zápisy. Ostatné uzly (secondary), udržiavajú kópie dát a môžu byť použité na čítanie dát, aby sa znížilo zaťaženie primárneho uzla.
+### Štruktúra dokumentu
+```json
+{
+  "name": "John Doe",
+  "age": 25,
+  "team": "Boston Bruins",
+  "position": "Forward",
+  "goals": 15,
+  "assists": 20,
+  "points": 35,
+  "penalty_minutes": 12,
+  "games_played": 65,
+  "plus_minus": 8,
+  "shots_on_goal": 120,
+  "injuries": [
+    {"injury": "Knee", "date": "2023-01-15"}
+  ],
+  "nationality": "Canada",
+  "draft_round": 2,
+  "season": "2023-2024"
+}
+```
 
-V porovnaní s inými NoSQL databázami, ako sú Redis (kľúč-hodnota), Apache Cassandra (stĺpcová) a Neo4j (grafová), MongoDB poskytuje lepšie možnosti pre komplexné dotazy a agregácie, vďaka svojej dokumentovo orientovanej štruktúre.
+## 🚀 Spustenie
 
-MongoDB tiež podporuje geopriestorové indexy a full-textové vyhľadávanie, čo rozširuje možnosti použitia na rôzne typy aplikácií, od lokalizačných služieb po vyhľadávanie v obsahu.
+### 1. Spustenie kontajnerov
+```bash
+docker compose up -d
+```
 
-### CAP teorém
+### 2. Import dát
+```bash
+# Kopírovanie súboru do kontajnera
+docker cp mongo/nhl_players.json mongo:/home
 
-MongoDB ako zvolená NoSql databáza je navrhnutá tak, aby poskytovala vysokú dostupnosť a konzistenciu dát v rámci viacerých serverov, čo umožňuje systému efektívne riešiť výzvy spojené s teóriou CAP (konzistencia, dostupnosť, tolerancia delenia/particionálnych chýb). V kontexte CAP teorému sa MongoDB zameriava skôr na **konzistenciu (C)** a **toleranciu na particionálne chyby (P)**, čo znamená, že v prípade výpadku siete alebo rozdelenia clusteru sa snaží udržať konzistenciu dát na úkor okamžitej dostupnosti všetkých operácií. MongoDB teda používa replikačné sady na zabezpečenie vysokého stupňa odolnosti a konzistencie, čo umožňuje systému efektívne zotaviť sa z jednotlivých serverových alebo sietových zlyhaní. V prípade zlyhania jedného uzla môže systém automaticky prepnúť na sekundárne uzly, čím zabezpečí nepretržité fungovanie služby bez straty dát.
+# Import do databázy
+docker exec -it mongo bash
+mongoimport --username user --password pass --authenticationDatabase admin --db nhl --collection players --file /home/nhl_players.json
+```
 
-### Architektura
+### 3. Pripojenie k databáze
+```bash
+# Pripojenie cez mongosh
+docker exec -it mongo bash
+mongosh
+use admin
+db.auth("user", "pass")
+use nhl
+```
 
-**Ako vyzerá architektúra vášho riešenia a prečo?**
-Moje riešenie pozostáva z jednoduchej MongoDB databázy behajúcej v Docker kontajneri. Toto riešenie som zvolil kvôli jeho jednoduchosti, lepšiu demonštráciu dat a nízkym nárokom na údržbu, čo je ideálne pre malé projekty, ako je tento s 500 záznamami hráčov NHL. Pri väčšom množstve dat by som už zvážil použitie shardingu na rozloženie záťaže.
+### 4. Webové rozhranie
+- **Mongo Express**: http://localhost:8081
+- **MongoDB**: mongodb://localhost:27017
 
-**Ako sa prípadne líši od doporučeného používania a prečo?**
-Odporúčané použitie MongoDB zahŕňa funkcie ako sharding a replikácia pre zabezpečenie vysokej dostupnosti a škálovateľnosti. V tomto projekte som tieto funkcie neimplementoval kvôli obmedzenej veľkosti a rozsahu dát, čo zjednodušuje celkovú infraštruktúru.
+## 📝 Dotazy a analýzy
 
-**Aký cluster pre vaše riešenie ste vytvorili a prečo?**
-Vytvoril som jednoduchý cluster s jedným uzlom (single-node cluster), ktorý je vhodný na spracovanie mojich dát bez potreby škálovania alebo replikácie.
+### Základné dotazy (Find)
+- Hráči s najvyšším počtom gólov
+- Filtrovanie podľa národnosti a draftového kola
+- Vyhľadávanie podľa regex vzorov
 
-**Koľko uzlov pre vaše riešenie používate a prečo?**
-Používam jeden uzol, pretože to postačuje pre množstvo a typ operácií, ktoré sú v mojom projekte potrebné. Väčší počet uzlov by znamenal zbytočne komplexnejšiu správu a vyššie náklady.
+### Komplexné agregácie
+- Najproduktívnejší hráč v každom tíme
+- Štatistiky zranení podľa tímov
+- Priemerný vek hráčov v tímoch
+- Analýza streleckej presnosti
 
-**Ako využívate pre vaše riešenie replikáciu a prečo?**
-Replikáciu v mojom riešení nevyužívam, pretože dáta nie sú kritické a aplikácia nevyžaduje vysokú dostupnosť alebo odolnosť voči chybám, ktoré by replikácia poskytla.
+### Pokročilé analýzy
+- Hráči s nadpriemernou úspešnosťou
+- Rizikoví hráči (vysoká produktivita + zranenia)
+- Kandidáti na reprezentáciu
 
-**Využívate sharding a ako jej pre vaše riešenie využívate a prečo? Pripadne pokud jej nevyužívate, tak prečo nie?**
-Sharding nevyužívam, pretože množstvo a komplexnosť dát nie je dostatočne veľká na to, aby ospravedlnila zložitosť a náklady spojené s implementáciou shardingu.
+**Celkovo**: 13 rôznych dotazov a agregácií
 
-**S akými typmi dát vaša databáza pracuje, akého sú formátu a ako s nimi databáza nakladá?**
-Databáza pracuje s dátami hráčov uloženými vo formáte JSON. Tento formát je vhodný pre dokumentovo orientované databázy ako MongoDB, pretože umožňuje flexibilné a dynamické spracovanie štruktúrovaných i neštruktúrovaných dát.
+## 🔧 Konfigurácia
 
-**Prečo ste nezvolili ďalšie možné dátové štruktúry pre vašu databázu?**
-Nezvolil som iné dátové štruktúry, ako sú relačné databázy alebo key-value store, pretože JSON dokonale vyhovuje potrebám aplikácie vzhľadom na flexibilitu a jednoduchosť manipulácie s dátami, čo je výhodné pre dynamické zmeny a rýchly vývoj.
+### Docker Compose
+- **MongoDB**: Port 27017
+- **Mongo Express**: Port 8081
+- **Autentifikácia**: user/pass
+- **Perzistencia**: Volume mapping
 
-**S koľkými dátami vaša databáza bude pracovať?**
-Databáza bude pracovať s približne 500 záznamami, čo sú vygenerované dáta hráčov NHL.
+### Zabezpečenie
+- Základná autentifikácia
+- Environment premenné
+- Izolované kontajnery
 
-**Odkiaľ sú dáta generovaná?**
-Dáta sú generovaná pomocou skriptu v jazyku Python, ktorý je napísaný na mieru pre moje potreby. Využíva knižnicu Faker na tvorbu náhodne generovaných profilov hráčov a používa reálne názvy NHL tímov pre lepšiu predstavu.
+## 📈 Výsledky
 
-### Perzistence
+### Kľúčové zistenia
+- Analýza výkonnosti hráčov
+- Korelácie medzi zraneniami a produktivitou
+- Štatistiky tímov a národností
+- Identifikácia talentov
 
-V mojom riešení je perzistencia dát zabezpečená uložením na pevný disk pomocou volume v Docker compose, ktorý mapuje lokálny adresár do kontajnera s MongoDB. Toto umožňuje trvalé uloženie dát medzi reštartami kontajnera. Tento prístup je vhodný pre základné ukladanie dát bez potreby rýchleho prístupu k sekundárnej pamäti alebo sofistikovaných techník ukladania dát ako je cachovanie.
+### Technické výsledky
+- Úspešná implementácia MongoDB
+- Komplexné dotazy a agregácie
+- Efektívne spracovanie JSON dát
+- Demonštrácia NoSQL výhod
 
-### Zabezpečení
+## 📚 Dokumentácia
 
-Možnosti zabezpečenia MongoDB zahŕňajú autentifikáciu, autorizáciu, šifrovanie dát v pokoji aj v prenose. Vo svojom riešení som implementoval základnú autentifikáciu pomocou užívateľského mena a hesla, ktoré sú definované v environment premenných v Docker compose súbore. Tento spôsob je efektívny pre základné zabezpečenie databázy v prostredí, kde nie sú vyžadované vysoké bezpečnostné opatrenia.
+- **HOWTO.md** - Detailné inštrukcie
+- **queries.md** - Všetky dotazy s vysvetlením
+- **mongo/** - Generátory dát
 
-### Výhody a nevýhody
+## 🔗 Odkazy
 
-Medzi hlavné výhody môjho riešenia patrí jeho jednoduchosť a nízke náklady na údržbu, vďaka čomu je ideálny pre malé projekty ako je tento. Vďaka použitiu JSON dátového formátu je tiež možné ľahko manipulovať s dátami. Hlavnou nevýhodou je obmedzená škálovateľnosť a nižšia odolnosť proti chybám, čo by v prípade rozšírenia projektu mohlo predstavovať problém.
-
-### Případy užití
-
-Zvolil som si MongoDB kvôli flexibilite a jednoduchosti, ktoré sú ideálne pre dynamické spracovanie a ukladanie dokumentov vo formáte JSON. Tento typ databáze je vhodný pre projekty, kde je potrebná rýchla iterácia a zmeny schémy. Nezvolil som inú NoSQL databázu ako napríklad Cassandra alebo Redis, pretože MongoDB poskytuje lepšie nástroje pre prácu s komplexnými dokumentmi a nevyžaduje prísne definované schémy. MongoDB je vhodná pre malé až stredne veľké projekty, ale môže byť nevhodná pre aplikácie, ktoré vyžadujú veľmi vysokú konzistenciu dát alebo kde je potrebná komplexná transakčná podpora.
+- [MongoDB dokumentácia](https://www.mongodb.com/docs/)
+- [Docker Compose](https://docs.docker.com/compose/)
+- [Mongo Express](https://github.com/mongo-express/mongo-express)
 
 ## Popis vlastního datasetu
 
